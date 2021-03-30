@@ -1,0 +1,70 @@
+
+body
+/*Bakground all sides*/
+{
+  background-color:rgb(131, 131, 131);
+}
+
+
+header{
+  background-color: rgb(83, 83, 83);
+}
+
+nav{
+background-color: rgb(126, 79, 159);
+border: 2px solid black;
+}
+
+/*style float border list*/
+.navul {
+  list-style-type: none;
+
+}
+
+/*list float left*/
+.linav{
+  float: left;
+  margin-left: 100px;
+}
+
+img{  display: block;
+  margin-left: 10px;
+  margin-right: auto;
+  display: block;
+  width: 30%;
+
+}
+
+section{
+margin: 10px;
+border: 2px solid black;
+}
+
+aside{
+margin: 10px;
+}
+
+footer{
+  background-color: rgb(113, 111, 236);
+  border: 2px solid black;
+}
+
+.ulfoot{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+.lifoot{
+  display: inline-block;
+  margin-left: 10px;
+  float: left;
+}
+
+p{
+  margin: 0;
+}
+
+h4{
+  margin-bottom: 0;
+}
