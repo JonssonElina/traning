@@ -7,7 +7,7 @@ body
 
 
 header{
-  background-color: rgb(83, 83, 83);
+  background-color:rgb(131, 131, 131);
 }
 
 nav{
@@ -37,7 +37,11 @@ img{  display: block;
 
 section{
 margin: 10px;
-border: 2px solid black;
+}
+
+h1{
+  font-size: 40px;
+  margin: 5px;
 }
 
 aside{
@@ -65,6 +69,20 @@ p{
   margin: 0;
 }
 
+h3{
+  margin-top: 10px;
+}
+
 h4{
-  margin-bottom: 0;
+margin-bottom: 0;
+font-size: 15px;
+font-style: normal;
+}
+
+a{
+  font-size: 15px;
+font-style: normal;
+text-decoration:none;
+color: black;
+font-weight: bold;
 }
