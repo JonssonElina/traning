@@ -59,8 +59,14 @@ footer{
     padding:0;
 }
 
-.lifoot{
-  display: inline-block;
+.lifoot {
+  display: block;
+  margin-left: 10px;
+  float: left;
+}
+
+.lifoot a {
+  display: block;
   margin-left: 10px;
   float: left;
 }
@@ -82,7 +88,7 @@ font-style: normal;
 a{
   font-size: 15px;
 font-style: normal;
-text-decoration:none;
+text-decoration:underline;
 color: black;
 font-weight: bold;
 }
