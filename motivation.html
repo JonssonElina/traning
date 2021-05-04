@@ -29,13 +29,28 @@
 
         <li class="linav">
 
-          <a href="index.html"> Startsida </a>
+          <div class="dropdown">
+            <a href="index.html"> Startsida </a>
+            <div class="dropdown-content">
+              <a href="index.html#blue"> Om träningsligan </a>
+              <a href="index.html#pink"> Varför just vi kan hjälpa dig</a>
 
+
+            </div>
+          </div>
         </li>
 
         <li class="linav">
+          <div class="dropdown">
+            <a href="#motivation"> Motivation </a>
+            <div class="dropdown-content">
+              <a href="#hej"> Hur du börjar träna </a>
+              <a href="#tja"> Hur håller upp motivationen</a>
+              <a href="#hejpådig"> Tips på hur du kan bli motiverad</a>
+            </div>
 
-          <a href="#"> Motivation </a>
+          </div>
+
 
         </li>
 
@@ -82,18 +97,9 @@
 
     <section>
 
-      <h1>Motivation</h1>
+      <h1 id="motivation">Motivation</h1>
 
-      <h2>Hur du börjar träna:</h2>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet,
-        consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-      <h2> Hur dur håller upp motivationen:</h2>
+      <h2 id="hej">Hur du börjar träna:</h2>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
         aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet,
@@ -102,7 +108,16 @@
         elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
         esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-      <h2> Tips på hur du kan bli motiverad till träning</h2>
+      <h2 id="tja"> Hur dur håller upp motivationen:</h2>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet,
+        consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <h2 id="hejpådig"> Tips på hur du kan bli motiverad till träning</h2>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
         aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet,
@@ -114,10 +129,11 @@
     </section>
 
     <aside>
-      <img src="img/ring.jpeg" alt="träningsring">
-      <img src="img/eljo.jpeg" alt="kvinna på springband">
-    </aside>
 
+
+    </aside>
+    <img src="img/ring.jpeg" alt="träningsring" class="ring">
+    <img src="img/eljo.jpeg" alt="kvinna på springband" class="eljo">
     <footer>
 
       <ul class="ulfoot">
@@ -176,7 +192,7 @@
 
         </li>
 
-        <li>
+        <li class="lifoot">
 
           <h3>Registrera dig</h3>
         </li>

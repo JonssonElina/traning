@@ -25,13 +25,47 @@ border: 2px solid black;
 .linav{
   float: left;
   margin-left: 100px;
+  margin-bottom: 10px;
+}
+
+.dropdown{
+  position: relative;
+display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:#a88ae7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color:#b6d2a3}
+
+
+
+.sticky {
+  position: fixed;
+  width: 100%;
 }
 
 img{  display: block;
-  margin-left: 10px;
-  margin-right: auto;
-  display: block;
-  width: 30%;
+  width: 15vw;
 
 }
 
@@ -47,6 +81,23 @@ h1{
 aside{
 margin: 10px;
 }
+
+.strumpor{
+  margin-top: 10px;
+}
+
+.kettel{
+  margin-top: 40px;
+}
+
+.ring{
+  margin-top: 40px;
+}
+
+.eljo{
+  margin-top: 400px;
+}
+
 
 footer{
   background-color: rgb(113, 111, 236);
@@ -91,4 +142,28 @@ font-style: normal;
 text-decoration:underline;
 color: black;
 font-weight: bold;
+}
+
+@media only screen and (max-width: 800px){
+
+.linav{
+margin-left: 0 ;
+float:left;
+  }
+
+  .kettel{
+    margin-top: 0;
+  }
+
+  .strumpor{
+    margin-top:0;
+  }
+
+.ring{
+  margin-top:0;
+}
+
+.eljo{
+  margin-top:0;
+}
 }

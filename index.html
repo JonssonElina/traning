@@ -33,13 +33,30 @@
 
           <li class="linav">
 
-            <a href="index.html"> Startsida </a>
 
+
+            <div class="dropdown">
+              <a href="index.html"> Startsida </a>
+              <div class="dropdown-content">
+                <a href="#blue"> Om träningsligan </a>
+                <a href="#pink"> Varför just vi kan hjälpa dig</a>
+
+
+              </div>
+            </div>
           </li>
 
           <li class="linav">
 
-            <a href="motivation.html"> Motivation </a>
+            <div class="dropdown">
+              <a href="#motivation"> Motivation </a>
+              <div class="dropdown-content">
+                <a href="motivation.html#hej"> Hur du börjar träna </a>
+                <a href="motivation.html#tja"> Hur håller upp motivationen</a>
+                <a href="motivation.html#hejpådig"> Tips på hur du kan bli motiverad</a>
+              </div>
+
+            </div>
 
           </li>
 
@@ -86,19 +103,20 @@
 
     <section>
       <h1>Startsida</h1>
-      <h2> Om träningsligan:</h2>
+      <h2 id="blue"> Om träningsligan:</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
         aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <h2> Varför just vi kan hjälpa dig? </h2>
+      <h2 id="pink"> Varför just vi kan hjälpa dig? </h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
         aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.t esse cillum dolore eu fugiat
         nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </section>
 
     <aside>
-      <img src="img/strumpor.jpeg" alt="en bild på en träningsstång och fötter">
-    </aside>
 
+    </aside>
+    <img class="strumpor" src="img/strumpor.jpeg" alt="en bild på en träningsstång och fötter">
+    <img class="kettel" src="img/kettel.jpeg" alt="en bild på kettelbells">
     <footer>
 
       <ul class="ulfoot">
@@ -163,7 +181,7 @@
 
         </li>
 
-        <li>
+        <li class="lifoot">
 
           <h3>Registrera dig</h3>
 
@@ -172,9 +190,7 @@
       </ul>
     </footer>
 
-    <script type="text/javascript">
-
-    </script>
+    <script src="js/script.js"> </script>
   </div>
 
 </body>
