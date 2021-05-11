@@ -78,6 +78,11 @@ h1{
   margin: 5px;
 }
 
+h2{
+  font-size: 40px;
+  margin: 5px;
+}
+
 aside{
 margin: 10px;
 }
@@ -126,11 +131,11 @@ p{
   margin: 0;
 }
 
-h3{
+h4{
   margin-top: 10px;
 }
 
-h4{
+h5{
 margin-bottom: 0;
 font-size: 15px;
 font-style: normal;
