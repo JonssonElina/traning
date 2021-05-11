@@ -2,17 +2,18 @@
 body
 /*Bakground all sides*/
 {
-  background-color:rgb(131, 131, 131);
+  background-color:white;
 }
 
 
 header{
-  background-color:rgb(131, 131, 131);
+  border-color: rgb(146, 231, 111);
+    border: 2px;
 }
 
 nav{
-background-color: rgb(126, 79, 159);
-border: 2px solid black;
+border-color: rgb(146, 231, 111) ;
+border: 2px ;
 }
 
 /*style float border list*/
@@ -38,7 +39,7 @@ display: inline-block;
   display: none;
   position: absolute;
   background-color:#a88ae7;
-  min-width: 160px;
+  min-width: 300px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -70,7 +71,9 @@ img{  display: block;
 }
 
 section{
+border-color: rgb(146, 231, 111);
 margin: 10px;
+  border: 2px;
 }
 
 h1{
@@ -84,6 +87,8 @@ h2{
 }
 
 aside{
+  border-color: rgb(146, 231, 111);
+    border: 2px;
 margin: 10px;
 }
 
@@ -105,8 +110,9 @@ margin: 10px;
 
 
 footer{
-  background-color: rgb(113, 111, 236);
-  border: 2px solid black;
+  border-color:rgb(146, 231, 111);
+  border: 2px;
+
 }
 
 .ulfoot{
