@@ -54,7 +54,7 @@ aside{
 /* specifikation för vart footer finns eller ska vara */
 footer{
   grid-column: 1/-1;
-  grid-row: 4/6;
+  grid-row: 5/6;
 }
 
 @media only screen and (max-width: 800px){
@@ -94,7 +94,7 @@ grid-row: 2/5;
 
   footer{
     grid-column: 1/-1;
-    grid-row: 4/6;
+    grid-row: 5/6;
   }
 }
   @media only screen and (max-width: 500px){
