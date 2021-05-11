@@ -43,7 +43,8 @@ display: inline-block;
   display: none;
   position: absolute;
   background-color:rgb(146, 231, 111);
-  min-width: 400px;
+  min-width: 210px;
+  min-height: 30px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
