@@ -44,8 +44,6 @@ display: inline-block;
   position: absolute;
   background-color:rgb(146, 231, 111);
   min-width: 210px;
-  min-height: 100px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
@@ -93,8 +91,8 @@ h2{
 }
 
 aside{
+border: 2px solid;
 border-color: rgb(146, 231, 111);
-    border: 2px solid;
 margin: 10px;
 }
 
@@ -116,9 +114,8 @@ margin: 10px;
 
 
 footer{
-border-color: rgb(146, 231, 111);
 border: 2px solid;
-
+border-color: rgb(146, 231, 111);
 }
 
 .ulfoot{
