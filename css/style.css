@@ -184,8 +184,10 @@ float:left;
 nav{
   border: none;
   background-color: black;
-  color: white;
+  color: white !important; 
 }
+
+
 
 section{
   border: none;
