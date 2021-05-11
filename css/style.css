@@ -180,4 +180,18 @@ float:left;
 .eljo{
   margin-top:0;
 }
+
+nav{
+  border: none;
+  background-color: black;
+  text-decoration-color: white;
+}
+
+section{
+  border: none;
+}
+
+aside{
+  border: none;
+}
 }

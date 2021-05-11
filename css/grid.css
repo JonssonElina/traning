@@ -3,7 +3,7 @@ grid-template-columns = antalet columner och bredden */
 .container{
   display:grid;
   grid-template-columns: repeat(12,1fr);
-  grid-template-rows: 100px auto auto auto;
+  grid-template-rows: 100px auto auto auto auto;
 }
 
 /* specifikation för vart header finns */
@@ -22,33 +22,33 @@ nav{
 /* specifikation för vart section finns */
 section{
   grid-column: 1/7;
-  grid-row: 3/4;
+  grid-row: 3/5;
 }
 
 /* specifikation för vart aside finns */
 aside{
   grid-column: 7/-1;
-  grid-row: 3/4;
+  grid-row: 3/5;
 }
 
 .strumpor{
   grid-column: 8/10;
-  grid-row: 3/4;
+  grid-row: 3/5;
 }
 
 .kettel{
   grid-column: 10/-1;
-  grid-row: 3/4;
+  grid-row: 3/5;
 }
 
 .ring{
   grid-column: 8/10;
-  grid-row: 3/4;
+  grid-row: 3/5;
 }
 
 .eljo{
   grid-column: 10/-1;
-  grid-row: 3/4;
+  grid-row: 3/5;
 }
 
 /* specifikation för vart footer finns eller ska vara */
@@ -66,17 +66,17 @@ footer{
 
   section{
     grid-column: 3/10;
-    grid-row: 2/4;
+    grid-row: 2/5;
   }
 
   aside{
 grid-column: 10/-1;
-grid-row: 2/4
+grid-row: 2/5;
   }
 
   .kettel{
   grid-column: 10/-1;
-  grid-row:3/4;
+  grid-row:3/5;
 
   }
 
@@ -87,7 +87,7 @@ grid-row: 2/4
 
   .ring{
     grid-column: 10/-1;
-    grid-row:3/4;
+    grid-row:3/5;
   }
 
 
