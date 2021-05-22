@@ -5,14 +5,15 @@ body
   background-color:white;
 }
 
-
+/*style för heather*/
 header{
     border: 2px solid;
     border-color: rgb(146, 231, 111);
 }
 
+/*style för nav*/
 nav{
-
+background-color: white;
 border: 2px solid;
 border-color: rgb(146, 231, 111);
 }
@@ -30,9 +31,10 @@ border-color: rgb(146, 231, 111);
   margin-bottom: 10px;
 }
 
+/* bakgrund på nav vid hover*/
 .linav a:hover {background-color:rgb(146, 231, 111)}
 
-
+/*dropdown style*/
 .dropdown{
   position: relative;
 display: inline-block;
@@ -52,6 +54,7 @@ display: inline-block;
   display: block;
 }
 
+/* stylar länkar i dropdown*/
 .dropdown-content a {
   color: black;
   text-decoration: none;
@@ -62,93 +65,109 @@ display: inline-block;
 .dropdown-content a:hover {background-color:white}
 
 
-
+/*style för sticky navbar*/
 .sticky {
   position: fixed;
   width: 100%;
 }
 
+/*style för bilder*/
 img{  display: block;
   width: 15vw;
   margin: 10px;
 
 }
 
+/*style för section*/
 section{
 margin: 10px;
 border: 2px solid;
 border-color: rgb(146, 231, 111);
 }
 
+/*stylar h1*/
 h1{
   font-size: 40px;
   margin: 5px;
 }
-
+/*stylar h2*/
 h2{
   font-size: 40px;
   margin: 5px;
 }
 
+/*stylar aside*/
 aside{
 border: 2px solid;
 border-color: rgb(146, 231, 111);
 margin: 10px;
 }
 
+/* stylar bilden strumpor*/
 .strumpor{
   margin-top: 10px;
 }
 
+/*stylar bilden kettel*/
 .kettel{
   margin-top: 40px;
 }
 
+/*stylar bilden ring*/
 .ring{
   margin-top: 40px;
 }
 
+/*stylar bilden eljo*/
 .eljo{
   margin-top: 400px;
 }
 
-
+/* stylar footer*/
 footer{
 border: 2px solid;
 border-color: rgb(146, 231, 111);
 }
 
+/* stylar unorderd list i footer*/
 .ulfoot{
     list-style-type: none;
     margin:0;
     padding:0;
 }
 
+/*stylar lista i footer*/
 .lifoot {
   display: block;
   margin-left: 10px;
   float: left;
 }
 
+/*stylar länkar i lista i footer*/
 .lifoot a {
   display: block;
   margin-left: 10px;
   float: left;
 }
 
+/* style för paragrafer*/
 p{
   margin: 0;
 }
 
+/* style för h4*/
 h4{
   margin-top: 10px;
 }
 
+/* stylde för h5*/
 h5{
 margin-bottom: 0;
 font-size: 15px;
 font-style: normal;
 }
+
+/* style för länkar*/
 
 a{
   font-size: 15px;
@@ -158,41 +177,47 @@ color: black;
 font-weight: bold;
 }
 
+/* style för bild med max-width 800px*/
 @media only screen and (max-width: 800px){
 
+/* style för lista i nav*/
 .linav{
 margin-left: 0 ;
 float:left;
   }
 
+/* style för bilden kettel*/
   .kettel{
     margin-top: 0;
   }
 
+/* style för bilden strumpor*/
   .strumpor{
     margin-top:0;
   }
 
+/*style för bilden ring*/
 .ring{
   margin-top:0;
 }
 
+/*style för bilden eljo*/
 .eljo{
   margin-top:0;
 }
 
+/*style för nav under 800px*/
 nav{
   border: none;
   background-color: black;
-  color: white !important; 
 }
 
-
-
+/*style för section under 800px*/
 section{
   border: none;
 }
 
+/*style för aside under 800px*/
 aside{
   border: none;
 }
